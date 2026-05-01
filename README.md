@@ -1,4 +1,4 @@
-# gopher-garbage 🐹
+# gopher-garbage 🧪 🏗️ ⚡ 📦
 
 My chaotic Go learning repo. Algorithms, random scripts, half-baked APIs, and future K8s operators.  
 Contributions welcome? Nah, this is my dumpster fire. 🔥
