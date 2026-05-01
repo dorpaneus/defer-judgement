@@ -21,6 +21,7 @@ By combining application logic with SRE principles—such as observability, infr
 * `internal/datastructs/`: Core algorithms and data structures.
 * `internal/sysdesign/`: High-level system design patterns.
 * `internal/observability/`: Instrumentation for metrics and distributed tracing.
+* `internal/drafts/`: Dedicated sandbox. Unfinished projects, rapid prototypes, and messy code here.
 * `deploy/`: Infrastructure as Code (Docker, Kubernetes, Terraform).
 * `docs/`: Architecture Decision Records (ADRs) and SRE Runbooks.
 * `tests/`: Load testing (k6/Vegeta) and chaos engineering scripts.
