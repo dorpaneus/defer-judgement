@@ -1,12 +1,12 @@
-# gopher-garbage 🧪 🏗️ ⚡ 📦
+# gopher-garbage ⚡
 
 My chaotic Go learning repo. Algorithms, random scripts, half-baked APIs, and future K8s operators.  
 Contributions welcome? Nah, this is my dumpster fire. 🔥
 
 ## Structure
-- `[algorithms](defer-judgement/algorithms)` → DS&A practice
-- `internal/` → draft
-- `scripts/` → small utilities
+- [algorithms](/algorithms)` → DS&A practice 🧪
+- [internal](internal) → draft 🏗️ 
+- [scripts](scripts) → small utilities 📦
 
 ## Running examples
 ```bash
