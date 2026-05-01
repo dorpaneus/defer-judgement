@@ -48,7 +48,7 @@ The full catalogue of solutions, grouped by topic, lives in [`algorithms/README.
 
 ## Status
 
-Personal, unstable, not for production, not accepting contributions. If something here is useful to you, take it. If something here is wrong, I probably haven't caught it yet — open an issue if you feel like it. 🔥
+Personal, unstable, not for production, not accepting contributions. If something here is useful to you, take it. If something here is wrong, I probably haven't caught it yet 🔥.
 
 ## License
 
