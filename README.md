@@ -4,9 +4,9 @@ My chaotic Go learning repo. Algorithms, random scripts, half-baked APIs, and fu
 Contributions welcome? Nah, this is my dumpster fire. 🔥
 
 ## Structure
-- `cmd/` → runnable things
-- `internal/algorithms/` → DS&A practice
-- `internal/scripts/` → small utilities
+- `algorithms/` → DS&A practice
+- `internal/` → draft
+- `scripts/` → small utilities
 
 ## Running examples
 ```bash
