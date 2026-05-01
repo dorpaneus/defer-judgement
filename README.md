@@ -4,7 +4,7 @@ My chaotic Go learning repo. Algorithms, random scripts, half-baked APIs, and fu
 Contributions welcome? Nah, this is my dumpster fire. 🔥
 
 ## Structure
-- `[algorithms](algorithms)` → DS&A practice
+- `[algorithms](defer-judgement/algorithms)` → DS&A practice
 - `internal/` → draft
 - `scripts/` → small utilities
 
