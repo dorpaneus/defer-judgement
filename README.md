@@ -1,55 +1,43 @@
-# defer-judgement
+# Go SRE & System Design Patterns
 
-> `defer judgement()` — my Go learning repo. The code is a work in progress; the lessons are the point.
+A practical learning repository focused on bridging the gap between core data structures, distributed system design, and Site Reliability Engineering (SRE) practices using Go.
 
-A personal log of me learning Go through algorithms, scripts, and whatever else seems worth poking at. The name is intentional: don't judge the code yet, judge whether I'm learning something.
+## 📖 Project Overview
 
-## What's actually here
+This repository is not just a collection of LeetCode-style algorithms. Instead, it demonstrates how low-level data structures (like Ring Buffers or Token Buckets) are used to build critical, production-grade infrastructure components (like Rate Limiters or Load Balancers). 
 
-- [`algorithms/`](./algorithms) — data structures & algorithms practice, one folder per problem. Each has its own README explaining the approach, complexity, and what I learned.
+By combining application logic with SRE principles—such as observability, infrastructure as code, and chaos engineering—this project simulates how high-performance systems are built and maintained in the real world.
 
-That's it for now. Other folders (e.g. `scripts/`, `cmd/`) will appear when there's something real to put in them, not before.
+## 🎯 Goals
 
-## Running things
+1. **Understand Core Algorithms:** Implement foundational data structures from scratch (e.g., Bloom Filters, Consistent Hashing).
+2. **Build System Components:** Use those data structures to construct higher-level distributed system patterns (e.g., Circuit Breakers, Sharding).
+3. **Implement Observability:** Instrument the code with metrics and tracing to ensure the systems can be monitored in production.
+4. **Design for Reliability:** Validate system resilience using load testing and chaos engineering.
 
-Each algorithm folder is self-contained and testable:
+## 🏗️ Repository Structure
 
-```bash
-# run all tests
-go test ./algorithms/...
+* `cmd/`: Runnable applications (e.g., load balancer, rate limiter).
+* `internal/datastructs/`: Core algorithms and data structures.
+* `internal/sysdesign/`: High-level system design patterns.
+* `internal/observability/`: Instrumentation for metrics and distributed tracing.
+* `deploy/`: Infrastructure as Code (Docker, Kubernetes, Terraform).
+* `docs/`: Architecture Decision Records (ADRs) and SRE Runbooks.
+* `tests/`: Load testing (k6/Vegeta) and chaos engineering scripts.
 
-# run a specific problem
-go test ./algorithms/<problem-name>/
-```
+## 🚀 Setup Instructions
 
-## Layout convention
+### Prerequisites
 
-Every algorithm lives in its own folder under `algorithms/`, named in `kebab-case`:
+To run and test the components in this repository, you will need:
+* **Go** (v1.21+)
+* **Docker & Docker Compose** (for containerization and local infrastructure)
+* **Make** (for running build scripts)
+* *(Optional)* **k6** or **Vegeta** (for load testing)
 
-```
-algorithms/
-└── two-sum/
-    ├── README.md        ← problem, approach, complexity, lessons
-    ├── solution.go
-    └── solution_test.go
-```
+### Getting Started
 
-The per-folder README is the important part — it's what makes this navigable later. See [`docs/algorithm-template.md`](./docs/algorithm-template.md) for the template I copy each time.
-
-## Index
-
-The full catalogue of solutions, grouped by topic, lives in [`algorithms/README.md`](./algorithms/README.md).
-
-## Learning notes
-
-- **Per-problem lessons** live inside each algorithm's own README.
-- **Cross-cutting notes** — Go idioms I keep relearning, slice/goroutine gotchas, testing patterns I'm trying — live in the [Wiki](../../wiki).
-- **Session journal** — three dated lines about what clicked — lives in [`LOG.md`](./LOG.md).
-
-## Status
-
-Personal, unstable, not for production, not accepting contributions. If something here is useful to you, take it. If something here is wrong, I probably haven't caught it yet 🔥.
-
-## License
-
-[MIT](./LICENSE).
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/yourusername/go-sre-design-patterns.git](https://github.com/yourusername/go-sre-design-patterns.git)
+   cd go-sre-design-patterns
