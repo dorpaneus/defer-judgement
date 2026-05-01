@@ -3,7 +3,7 @@
 **Source:** [LeetCode #1](https://leetcode.com/problems/two-sum/)
 **Difficulty:** easy
 **Tags:** `array`, `hashmap`, `lookup`
-**Date solved:** 2026-05-01
+**Pattern:** complement lookup via hashmap
 
 ---
 

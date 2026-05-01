@@ -2,8 +2,8 @@
 
 **Source:** [link to LeetCode / HackerRank / book / wherever, or "self-posed"]
 **Difficulty:** [easy | medium | hard | n/a]
+**Pattern:** [3–6 words capturing the core technique, e.g. "complement lookup via hashmap"]
 **Tags:** `[tag1]`, `[tag2]`, `[tag3]`
-**Date solved:** YYYY-MM-DD
 
 ---
 
