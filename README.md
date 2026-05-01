@@ -39,5 +39,5 @@ To run and test the components in this repository, you will need:
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/yourusername/go-sre-design-patterns.git](https://github.com/yourusername/go-sre-design-patterns.git)
-   cd go-sre-design-patterns
+   git clone [https://github.com/dorpaneus/defer-judgement.git](https://github.com/dorpaneus/defer-judgement.git)
+   cd defer-judgement
